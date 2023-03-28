@@ -9,8 +9,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://flourishing-meerkat-0ee2fd.netlify.app)
+- Live Site URL: (https://nitheesh-kumar99.github.io/Profile-Card-Component/)
 
 ## My process
 
