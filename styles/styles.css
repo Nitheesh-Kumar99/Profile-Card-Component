@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 18px;
+}
+:root {
+  --clr-dark-cyan: hsl(185, 75%, 39%);
+  --clr-white: white;
+  --clr-desaturated-blue: hsl(229, 23%, 23%);
+  --clr-grayish-blue: hsl(227, 10%, 46%);
+  --clr-darkgray: hsl(0, 0%, 59%);
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-dark-cyan);
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.card-container {
+  background-color: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 375px;
+  border-radius: 1rem;
+  gap: 1rem;
+}
+.top-img {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  width: 375px;
+}
+.profile-pic {
+  border-radius: 50%;
+  border: 6px solid var(--clr-white);
+  margin-top: -70px;
+}
+.profile-name {
+  margin: 0 auto;
+}
+h1 {
+  font-size: 18px;
+  color: var(--clr-desaturated-blue);
+}
+.age {
+  font-weight: 400;
+}
+.place {
+  font-weight: 400;
+  color: var(--clr-grayish-blue);
+}
+.followers,
+.likes,
+.photos {
+  font-weight: 700;
+}
+span {
+  color: var(--clr-grayish-blue);
+}
+.f,
+.l,
+.p {
+  font-weight: 400;
+  font-size: 15px;
+}
+hr {
+  width: 100%;
+  color: var(--clr-darkgray);
+  opacity: 50%;
+}
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.dec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+  margin-bottom: 30px;
+  width: 100%;
+}
